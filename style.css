@@ -1,0 +1,136 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Work Sans", sans-serif;
+}
+
+.dark1{
+    color: #131313;
+
+}
+
+.dark2{
+    color: #424242;
+}
+
+.part1{
+    background-color: rgba(255, 144, 14, 0.1);
+    
+}
+
+.top, .brand_info_data{
+    max-width: 1440px;
+    margin: 0px auto;
+}
+
+.top{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 1rem;
+}
+
+.company_name{
+    font-size: 2rem;
+    font-weight: 700px;
+}
+
+.menu_Bar a{
+    text-decoration: none;
+    font-size: 18px;
+    padding: 25px;
+    color: #424242;
+    font-weight: 500px;
+    
+}
+
+.brand_info{
+    max-width: 862px;
+    margin: 0 auto;
+    text-align: center;
+    margin-top: 4rem;
+    margin-bottom: 1.5rem;
+
+}
+
+.header1{
+    font-size: 3rem;
+}
+
+.header1p{
+    font-size: small;
+
+}
+
+.btn{
+    background-color: #FF900E;
+    padding: 20px 25px;
+    border-radius: 8px;
+    border: none;
+    font-size: 1.2rem;
+}
+
+.banner{
+    width: 100%;
+}
+
+@media screen and (max-width:576px) {
+
+.top{
+    flex-direction: column;
+}
+.menu_Bar{
+    padding: 2px 0;
+    background-color: #FF900E;
+    border: none;
+    border-radius: 5px;
+}
+
+.menu_Bar a{  
+    font-size: 15px;
+    padding: 15px;
+    
+    
+}
+
+.banner_img{
+    width: 100%;
+    text-align: center;
+    
+}
+
+.banner{
+    width: 95%;
+}
+
+
+    
+}
+
+@media screen and (min-width:576px) and (max-width:992px)   {
+
+.company_name{
+    font-size: 1rem;
+    padding-left: 15px;
+    
+}
+
+.menu_Bar a{  
+    font-size: 15px;
+    padding: 15px;
+    
+    
+}
+
+.banner_img{
+    width: 100%;
+    text-align: center;
+    
+}
+
+.banner{
+    width: 95%;
+}
+
+    
+}
